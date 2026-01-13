@@ -1,5 +1,5 @@
+import Navbar from "@/components/Navbar";
 import "@/assets/styles/globals.css";
-import React from "react";
 
 export const metadata = {
   title: "PropertyX",
@@ -11,6 +11,7 @@ const MainLayout = ({ children }) => {
   return (
     <html>
       <body>
+        <Navbar />
         <main>{children}</main>
       </body>
     </html>
